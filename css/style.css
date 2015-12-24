@@ -1,0 +1,40 @@
+﻿#sketch-container {
+    margin-top: 55px;
+}
+
+#drawing-board-container {
+}
+
+#canvas-drawing-board {
+    outline: 2px solid #ccc;
+    min-height: 500px;
+}
+
+#n-nav a {
+    padding: 0;
+    background-color: transparent;
+}
+
+#n-nav .container {
+    padding: 5px;
+}
+
+
+#n-nav li[group="shape"] i:hover, #n-nav li[group="shape"].active {
+    color: #FFF;
+    cursor: pointer;
+}
+
+#n-nav li:hover, #n-nav li.active {
+    color: #000;
+    cursor: pointer;
+}
+
+#n-nav li {
+    color: #ccc;
+}
+
+#n-nav .thickness-dropdown .dropdown-menu {
+    min-width: 60px;
+    text-align: center;
+}
